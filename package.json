@@ -1,5 +1,9 @@
 {
-  "name": "shadcnui",
+  "name": "parfet",
+  "homepage": "https://M-H-10.github.io/parfet",
+  "scripts": {
+    "deploy": "pnpm run build && gh-pages -d dist"
+  }
   "type": "module",
   "packageManager": "pnpm@8.10.0",
   "scripts": {
